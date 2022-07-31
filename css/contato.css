@@ -1,0 +1,319 @@
+/* Inicio do conteudo principal */
+
+#redor{
+   background:green;
+	width:1124px;  /*1024px*/
+	margin-top: 30px;
+   margin-right:auto;    
+    margin-left:auto;	
+	margin-bottom:0px;	     
+}	 
+
+#principall {	
+background:orange;
+    width:1124px; /*1024px*/
+	float:left; 
+	text-align:left;
+    margin-top: 0px;
+    margin-right:auto;
+    margin-bottom:auto;/*0px*/
+    margin-left:auto;/*76px*/		
+}
+
+#formulario {
+/*background:red;*/
+    width:650px;
+	float:left; 
+	text-align:right;
+}
+
+#formulario table {
+/*border: 1px solid blue;*/
+	width: 100%;
+	/*border: 0;*/
+	margin-bottom: 30px;
+}
+#formulario td {
+	width: 100%;
+/*border: 1px solid green;*/
+	}
+	#formulario tr {
+/*background: yellow;*/
+	}
+
+.coluna-esquerda {
+	width: 18%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.coluna-direita {
+	width: 80%;
+	text-align: right;/*right*/
+	vertical-align: top;
+}
+
+
+
+#formcontato {
+/*border: 3px solid yellow;*/
+	float:left;
+	margin:0;
+	padding:0;
+	width:649px;
+	text-align: center;
+}
+#formcontato select{
+	width: 274px;
+	height: 30px;
+}
+
+#formcontato input:focus, #nome:focus, #email:focus, #telefone:focus, #mensagem:focus #assunto:focus ,#news:focus{
+	background-color:#FC6;
+}
+#formcontato select:focus, #assunto:focus {
+	background-color:#FC6;
+}
+#formcontato textarea:focus, #mensagem:focus {
+	background-color:#FC6;
+}
+
+#formcontato input{
+
+margin: 0 2px 0 0;
+	font-size:14px;
+	padding-left: 5px;
+}				
+
+#formulario #formcontato label{
+	font-weight: bold;
+	float:right;
+	color:#000;
+}	
+
+
+#formulario #formcontato .newstd{
+    background:yellow;
+  
+  
+    /*margin:0 auto;*/
+    /*padding:0;*/
+    /*text-align:right;*/
+   /*width:260px;*/
+  
+}	
+
+#formulario #formcontato .newslabel{
+   /* background:yellow;*/
+   
+    float: right;
+    margin:0 0 0 20px;
+    padding:2px 0 0 0;
+    text-align:right; 
+}	
+
+#formcontato #nome, #formcontato #telefone, #formcontato #email ,#formcontato #assunto, #formcontato #news {
+	float:left;
+	margin-bottom:20px;	
+	height:25px;				
+}
+
+#formcontato #mensagem {
+	font-size:14px Arial;
+	float:left;
+	margin-bottom:15px;
+	padding-left: 5px;
+	resize: none;  			
+} 
+
+#formcontato #limpar, #formcontato #enviar {	
+	width:120px;
+	height:30px;		
+	font-size: 14px;
+	border: 1px solid #ddd;
+	color: rgb(0, 0, 0);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: rgb(200, 200, 200);
+	background: -moz-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: -webkit-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: -o-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: -ms-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: linear-gradient(0deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	-webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+#formcontato #limpar:focus, #formcontato #enviar:focus {	
+	width:120px;
+	height:30px;		
+	font-size: 14px;
+	border: 1px solid #ddd;
+	color: rgb(0, 0, 0);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: rgb(200, 200, 200);
+	background: -moz-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: -webkit-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: -o-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: -ms-linear-gradient(90deg, rgb(200, 200, 200) 5%, rgb(240, 240, 240) 50%);
+	background: linear-gradient(0deg, rgb(240, 240, 240) 5%, rgb(200, 200, 200) 50%);
+	-webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+#formcontato #limpar {
+	margin-right: 30px;
+}
+		
+.centro {
+	margin: 0 auto;
+}
+
+#formulario ul {
+	padding-left: 20px;
+}
+
+#formulario li {
+	margin: 0px auto;
+	padding: 0px auto;
+	list-style: square;
+}
+
+#endereco {
+	margin:0 auto;
+    width:358px; 	
+	float:right; 
+	text-align:left;
+}
+
+#mapa {
+	margin: 0;
+	width: 355px;
+	height: 300px;
+	border: none;
+}
+
+
+
+/* Inicio da versao Mobile */
+
+
+@media only screen and (min-width: 240px) and (orientation:portrait){
+
+/* Inicio do conteudo principal Mobile */
+
+iframe {
+	display:none;		
+}
+
+#redor{
+	  width:100%;
+	  height:auto;
+	  margin: 0 auto;
+ 
+}	 
+
+#principal{
+	float:left; 
+	width:100%;
+	text-align:left;
+	
+}  	
+#principalcontato{/*
+	float:left; 
+	width:100%;
+	text-align:left;
+	margin-left:auto;	*/
+}  	
+
+#formulario {
+	width: 100%;
+	float: left;
+}
+
+#formulario p, .vcard li {
+   font-size: 3em;
+}
+
+#formcontato label {
+   font-size: 2em;
+}
+
+#formulario table {
+	width: 100%;
+	border: 0;
+}
+
+#formcontato {
+	float:left;
+	margin:0 auto;
+	padding:0 auto;
+	width:100%;
+	text-align: center;	
+	margin-bottom: 12%;
+}	
+
+#formcontato input:focus, #nome:focus,#email:focus,#telefone:focus,#mensagem:focus{
+	background-color:#FC6;
+}
+
+#formcontato label{
+	font-weight: bold;
+	float:right;
+}	
+
+#formcontato #nome, #formcontato #email, #formcontato #telefone {	
+	width:95%;
+	float:left;
+	height:70px;
+	padding-left: 2%;	
+}
+
+#formcontato #mensagem{
+	width:95%;
+	float:left;
+	margin-bottom:15px;			
+	padding-left: 2%;	
+} 
+
+#formcontato #limpar, #formcontato #enviar{			
+	width:4em;
+	height:2em;
+   font-size:3em;		
+}
+
+#formulario ul {
+	padding-left: 5%;
+}
+	
+
+#endereco {
+	clear: both;
+	width:100%;
+	float:right; 
+	text-align:left;
+}
+
+#endereco .centro {
+	margin: 0 auto;
+}
+
+#endereco .vcard {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#formulario #formcontato .newstd{
+    /*background:red;*/
+ font-size: .6em;
+    float:left;
+    margin:0;
+    padding:0;
+    text-align:left;
+   width:100%;
+}	
