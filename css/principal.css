@@ -1,0 +1,848 @@
+/* Inicio do Desktop */
+
+body{
+	font: 14px Arial;
+	margin:0 auto;
+	padding:0 auto;
+	/*background-color:#333;*/
+}
+ 
+h1 {
+	font-size: 30px;
+	color:#B26231;
+}
+
+h2 {
+	font-size: 20px;
+	color:#000;
+}
+
+p, ul, li {
+	font-size: 14px;
+	line-height: 1.4em;
+} 
+
+.hr1 {
+	margin-top:0;
+	margin-bottom:20px;
+	clear:both;
+	padding:0;
+	border:#006 solid 2px;
+	box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.8);
+}
+.hr2 {
+	margin-top:0;
+	clear:both;
+	padding:0;
+	border:#006 solid 0.1px;
+}
+
+/* Inicio do Topo */
+
+ #topo{	 
+
+ /*border: 1px solid red;*/
+    float: left;
+    /*clear:both;*/
+	height:110px;	
+	width:100%;/*1024px*/
+	padding:0;
+    margin: 0 auto 0px auto;
+}
+
+#topo .logo{
+    margin-left: 86px;
+    margin-top:0px;
+    margin-bottom:10px;   
+	float:left;
+	width:280px;	
+	height:110px;	
+}		
+
+#topo .band{
+
+	position:relative;
+	left:674px;
+	top:12px;
+	padding: 0 0 0 5px;
+	width:30px;
+	height:16px;	
+}
+
+#topo nav{
+/*border: 1px solid red;*/
+	font-size:18px;
+	float:right;
+	width:600px;	
+	margin-top:85px;	
+	margin-left: auto;
+	margin-right:94px;
+	margin-bottom:0;
+	padding:0;
+	
+	
+	/*
+	position:relative;
+	left:1024px;
+	top:0px;
+	padding: 0 0 0 5px;
+	width:100px;
+	height:16px;*/	
+}
+
+#topo nav ul{
+	text-align:right;	
+	margin:0;
+	padding:0 0 0 0px;
+	width:675px;
+	float:right;
+	list-style-type: none;	
+}	
+ 
+ #topo nav ul li{	
+	margin:15px 0px 15px 25px;
+	display:inline;		
+}		
+ #topo nav ul .logar{	
+	margin:15px 0px 15px 35px;
+	padding:5px 20px 5px  20px;
+	display:inline;	
+		background:#BFDFDF;
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.30);
+        -moz-box-shadow: 2px 2px 15px 15px rgba(50, 50, 50, 0.30);
+         box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.3);
+	
+}		
+
+#topo nav ul .logar a{	
+	  margin:15px 0px 15px 0px;
+	font-size:18px;
+	color:#000;
+	text-decoration:none;
+	
+}
+#topo nav ul .logar a:hover{	
+color:#F00;
+
+
+	
+}		
+#topo nav ul li a{	
+    margin:15px 0px 15px 0px;
+	font-size:18px;
+	color:#960;
+	text-decoration:none;
+}	
+
+#topo nav ul li a:hover{	
+	color:#006;
+
+}	
+
+
+/* Conteudo principal */
+
+#redor{
+/*border: 1px solid green;*/
+ /*background: green;*/
+	   width:1124px;
+	   margin: 10px auto 0 auto;
+	   /*margin: 10px 0 auto 56px;	*/ 
+	   
+  
+}
+
+#geral { 
+
+b/*order: 1px solid orange;*/
+ /*background: green;*/	
+	height:978px;/**/
+	width:1124px;  
+	clear:both;
+    margin: 0px auto;
+	
+}
+
+#artigos{	
+    width:760px;  
+	float:left; 
+	text-align:center;
+}	   
+
+.empresa_servico{		 
+	margin:0; 
+	width:380px; 
+	float:left;  		 
+}
+
+.empresa{
+	margin-bottom:20px;
+	width:350px;
+	height:285px;/*275px*/
+	float:left;
+	
+	/*background-image: url(../imagens/diveacima.png);
+	background-repeat: no-repeat;*/
+	
+}
+	
+.atividades{	
+	margin-bottom:10px;
+	width:350px;
+	height:227px;		
+	float:left; 
+		/*background-image: url(../imagens/fundodiv.png);
+	background-repeat: no-repeat;*/
+}
+
+.noticias{	
+	margin-bottom:20px;
+	margin-left:5px;
+	float:left;
+	width:350px;  
+	height:285px;/*275px*/
+	
+	/*background-image: url(../imagens/diveacima.png);
+	background-repeat: no-repeat;	*/
+}
+	
+.informacao{
+	margin-bottom:10px;
+	margin-left:5px;
+	float:left;
+	width:350px;  
+	height:227px;
+
+	/*background-image: url(../imagens/fundodiv.png);
+	background-repeat: no-repeat;*/
+	
+}
+
+.atividades ul{
+	margin:0;
+	padding:14px 0 0 22px;
+	text-align:left;
+}		
+
+.atividades li{
+	list-style-type: square;
+}
+
+.informacao ul{
+	padding:0 0 0 22px;
+	float:left;
+}	
+
+.informacao li{
+	text-align:left;
+	margin:0;
+	padding:0 14px 0 0px;
+	float:left;
+	list-style-type: square;
+}		 
+
+.empresa h1, .atividades h1{
+	/*background:#13245B;*/
+	border-bottom:2px solid #9f8282;	
+}
+
+.noticias h1, .informacao h1 {
+	/*background-color:#13245B;*/
+	border-bottom:2px solid #9f8282;
+	
+}	
+
+.empresa h1, .noticias h1, .atividades h1, .informacao h1, #colaboradores h1 {
+	font-size: 18px;
+	color:#c62727;
+
+	margin:0; 
+	text-align:left;
+	padding: 5px 10px;
+}
+
+.empresa p, .noticias p {	
+	padding:0px 12px 0px 12px;
+	text-align:left;
+}	
+
+.empresa img, .noticias img, .atividades img, .informacao img {
+	width:120px; 
+	height:120px; 
+	margin-top:14px; 
+	margin-left:14px;
+	margin-right:14px;
+	float: right;
+}
+
+#colaboradores{	
+	width:350px; 
+    height:522px; 
+	float:right; 
+	text-align:center; 
+	
+   /* background-image: url(../imagens/fundColaborador.png);
+	background-repeat: no-repeat;*/
+}
+
+.colaboradores01 ul li img{
+	width:210px;
+	height:92px;
+	margin-bottom:2px;
+	margin-right: 22px;
+	/*float:right;	*/	
+}
+
+.colaboradores01 ul {
+	padding-left:30px;
+	margin-left:26px;
+	width:260px;
+	/*float:right;*/
+	list-style-type: none;	
+}
+
+.colaboradores01 ul li{	
+	margin-bottom:50px;
+	list-style-type: none;		
+}	
+
+
+.colaboradores01 h1 {
+	/*background-color:#999;*/
+	border-bottom:2px solid #9f8282;
+}
+
+
+.colaboradores01 p{
+	padding-left:12px;
+	text-align:left;
+}
+
+.colaboradores01{
+	 width:350px;	 
+	 margin:0; 
+	 float:right; 	  
+}
+
+.colaboradores01 ul{	
+	padding:0 0 0 13px;;
+	margin:0 auto;
+	/*float:left;*/
+}	
+
+.colaboradores01 ul li{	
+	margin: 0 0 4px; 0;
+	float:right;
+}
+
+.empresa, .atividades, .noticias, .informacao, #colaboradores {
+	-webkit-box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.30);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.30);
+    box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.3);
+}
+
+
+
+.mks{
+margin-top: 10px;
+float: left;
+width:1124px;
+box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.3);
+
+}
+.mks h1{
+font-size: 24px;
+padding: 0px;
+color:#c62727;
+text-align: center;
+
+}
+.mks  p{
+font-size: 14px;
+padding: 3px;
+color:#000;
+text-align: center;
+
+}
+
+ .imgE  {
+    float: left;
+	background-color:#fff; 
+    width:350px;
+	height:400px; 	 
+	/*margin-left:auto;*/
+	margin-right:36px;
+
+	/**/
+	
+}
+.imgD  {
+    float: right;
+    width:350px;
+	height:400px; 	 
+	
+
+	/**/	
+}
+ .imgE img { 
+  width:350px;
+  height:188px; 
+ }
+ .imgD img { 
+  width:350px;
+  height:188px; 
+ }
+
+/* Inicio do Rodape */
+
+#rodape{
+	clear:both;
+	margin: 0 auto;
+	padding: 5px 0 5px 0;	
+	background-color:#003;
+	width: 100%;
+}
+
+#rodape article {	
+	margin: 0 auto;
+	text-align: center;
+	width:1024px;
+}	
+
+#rodape p {
+	font-size:12px;
+	color:#fff;	
+	line-height: 18px;
+}
+
+#rodape #redesocial{
+	float: right;
+	text-align: right;
+	width: 180px;
+	height: 40px;
+}	
+
+#rodape #redesocial img {
+	border: 0;
+	padding: 0 0 0 10px;
+}
+
+
+/* Fim do desktop */
+
+
+/*--------------------------------*/
+/*     Incio da versao Mobile     */
+/*--------------------------------*/
+
+
+
+#redortempletes{
+	margin-left:164px;
+	margin-bottom:20px;
+	padding:0px;
+	
+	/*background-image: url(../imagens/fundGaleria.png);
+	background-repeat: no-repeat;	*/
+	/*background:#900;*/
+	float: left;
+	width: 1024px;
+	height: 240px;	
+	-webkit-box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.30);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.30);
+    box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.3);
+	}
+/*Galeria de Tampletes  */
+
+#redortempletes ul{ 
+float:left;
+margin: 0px; 
+padding: 0px;
+list-style:none;
+}
+#redortempletes ul li{
+/*background-color:#9F0;*/
+display:inline;
+float:left; 
+width:100px; 
+height:100px; 
+margin-right:140px;
+margin-left:14px;
+margin-top:5px;
+}
+#redortempletes ul li img{ 
+width:230px;
+height:220px;
+padding-top:4px; 
+border: 1px solid #FFF; 
+border-radius: 18px 0px 18px 0px;
+}		
+#redortempletes ul li img:hover{
+background:#F5F5F5;
+border:solid #CC9; 
+box-shadow:#CC3;
+}	
+
+
+
+@media only screen and (min-width: 240px) and (orientation:portrait) {
+
+
+body{
+	font-family: Arial;
+	width: 100%;
+	margin: 0 auto;
+	padding:0 auto;
+}
+
+h1 {
+	font-size: 80px;
+	color:#B26231;
+	margin: 0 2%;
+}
+
+h2 {
+	font-size: 50px;
+	color:#000;
+}
+
+p, ul, li {
+	font-size: 14px;
+	line-height: 1.5em;
+	padding-bottom: 1.5em;
+} 
+
+
+/* Mobile - Topo */
+	 
+#topo{
+/*margin:0 auto;*/
+	height: auto;	
+	width:100%;
+    float:left;
+    top: 0px;
+}
+
+#topo .logo{	
+	margin:0 auto;
+	float:left;
+	width:100%;	
+	height:25%;
+}	
+
+#topo .band{	
+	position:relative;
+	left:35%;
+	margin:0;
+	padding:0 0 0 1%;
+	width:10%;
+	height:auto;	
+}
+
+#topo nav{	
+	width:100%;	
+	margin:5% 0 5% 0;
+	float:left;			
+}
+
+#topo nav ul{	
+	float:left;
+	text-align:center;
+	width:100%;
+	background:#ddd;
+	list-style-type: none;	
+}	
+
+#topo nav ul li{	
+    display:block;	
+	padding:2em 0;
+	margin:0;
+	border: 1px solid #aaa;
+	width:100%;
+    background:#eee;
+    line-height: normal;
+}		
+
+#topo nav ul li a{	
+	font-size:4em;
+    font-weight:100%;
+	text-transform:uppercase;
+	color:#960;
+	text-decoration:none;
+	padding: 2% 20%;
+}	  
+
+#topo nav ul li:hover{	
+	background-color:#006;
+}
+
+#topo nav ul li a:hover{		
+	color:#FFF;
+}
+
+/*Acrescentado logar*/
+ #topo nav ul .logar{	
+	
+	 display:block;	
+	padding:2em 0;
+	margin:0;
+	border: 1px solid #aaa;
+	width:100%;
+   /* background:#69F;*/
+    line-height: normal;
+	
+}		
+
+#topo nav ul .logar a{	
+	font-size:4em;
+    font-weight:100%;
+	text-transform:uppercase;
+	/*color:#960;*/
+	text-decoration:none;
+	padding: 2% 20%;
+	
+}
+
+#topo nav ul .logar a:hover{	
+color:#F00;
+	
+}		
+
+
+/*fim do acrecentado logar*/
+
+/* Mobile - Conteudo principal */
+
+#geral{ 	
+	width:100%;  
+	float:left;
+	margin: 20px 0 20px 0;
+	height: auto; 
+}	
+
+#redor{
+	width:100%;	  
+	height:auto;
+	margin: 0 auto;	
+}	
+
+
+#artigos {
+	width:100%;
+	float:left; 
+	padding: 0 1% 0  0;
+	text-align:center;	
+}  
+
+.empresa_servico{	
+	width:100%;
+	float:left; 
+	margin:0; 
+	padding:0 auto;
+}
+
+.empresa, .atividades, .noticias, .informacao {   
+	text-align:left; 	
+	width:100%;
+	margin-bottom:5%;
+	padding-bottom: 4%;
+	height: 260px;
+}
+
+
+.atividades ul, .informacao ul{
+	margin:0 auto;
+}		
+
+.atividades li, .informacao li{
+	margin-left:5px;
+	text-align:left;
+	list-style-type: square;
+}
+
+.informacao li {
+	padding-top: 4%;
+/*	font-size: 15px;*/
+}
+
+.empresa h1, .atividades h1, .noticias h1, .informacao h1 {   
+	font-size: 1.3em;
+	margin:0; 
+	text-align:left;
+}
+
+.empresa h1, .atividades h1{
+	 background:#13245B;
+}
+
+.noticias h1, .informacao h1{
+	background-color:#13245B;
+}	
+
+.empresa img, .noticias img, .atividades img{
+	width:30%; 
+	height:50%;
+	float:right;  
+	margin-top:14px; 
+	margin-left:2%;
+	margin-right:14px; 
+}
+
+#colaboradores{
+	display:none;
+}
+
+/* Mobile - Rodape */
+
+#rodape{
+	clear:both;
+	margin: 0 auto;
+	padding: 5px 0 5px 0;	
+	width: 100%;
+}
+
+#rodape article {	
+	margin: 0 auto;
+	text-align: center;
+	width:100%;
+}	
+
+#rodape p {
+	font-size:1.8em;
+	color:#fff;	
+	line-height: 30px;
+}
+
+#rodape #redesocial{
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;	
+	margin-bottom: 20px;
+}	
+
+#rodape #redesocial img {
+	border: 0;
+	padding: 0 10px 0 10px;
+	width: 10%;
+}
+
+
+/* Fim da versao mobile */
+
+ ul p  {	
+margin:0;
+padding:0;
+ float:right;
+ background-color:#966;
+
+	
+}	
+
+
+/*Redor templates*/
+
+#redortempletes{
+	margin:0;
+	padding:0;
+	float:left;
+		
+	width:100%;
+	/*margin-bottom:5%;
+	padding-bottom: 4%;*/
+	height: 500px;
+	background:#CF3;
+	background-image:none;
+/*	width:100%;
+	float:left;
+
+height:1000px;*/
+	}
+	
+/*Galeria de Tampletes  */
+
+#redortempletes ul{ 
+width:100%; padding: 0px; 
+margin: 0px 0px 0px 6%;
+list-style:none;
+float:left;
+margin-right:0px;
+}
+#redortempletes ul li{
+display:block;
+float:left;
+width:120px;
+height:120px;
+margin-right: 130px;
+margin-left:10px;
+margin-top:5px;
+margin-bottom:94px;}
+#redortempletes ul li img{ 
+width: 230px;
+height:230px;
+padding-top:4px; 
+border: 1px solid #FFF; 
+border-radius: 18px 0px 18px 0px;
+}		
+#redortempletes ul li img:hover{
+background:#F5F5F5;
+border:solid #CC9; 
+box-shadow:#CC3;
+}	
+
+.hr1{
+display: none;
+}
+
+.empresxx{	
+	width:100%;
+	float:left; 
+	margin:0; 
+	padding:0 auto;
+	}
+	
+.mks{
+margin-top: 10px;
+float: left;
+width:100%;
+box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.3);
+
+}
+.mks h1{
+font-size: 24px;
+padding: 0px;
+color:#9f8282;
+text-align: center;
+
+}
+.mks  p{
+font-size: 14px;
+padding: 3px;
+color:#000;
+text-align: center;
+
+}
+
+ .imgE  {
+    float: left;	
+    width:100%;
+	margin-right:36px;
+	
+}
+.imgD  {
+    float: right;
+    width:100%;	 
+
+}
+ .imgE img { 
+ margin: 0 0 20px 0;
+  width:100%;
+  height:230px; 
+ }
+ .imgD img { 
+ margin: 0 0 20px 0;
+ width:100%;
+  height:230px; 
+ }	
+
+
